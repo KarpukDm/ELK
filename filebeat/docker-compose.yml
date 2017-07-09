@@ -1,0 +1,5 @@
+ filebeat:
+    build: .
+    volumes:
+    - ./filebeat.yml:/filebeat.yml
+    - /home/karpukdm/Desktop/docker-elk/application.log:/application.log
